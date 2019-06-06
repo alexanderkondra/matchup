@@ -21,3 +21,26 @@ img {
 .baggins, .ariel, .darko, .nomatch{
   display: none;
 }
+.jumbotron {
+  background-color: #92AFAD;
+  text-align: center;
+}
+h1  {
+  font-family: 'Poppins', sans-serif;
+  font-size: 100px;
+  letter-spacing: 3px;
+  padding: 20px;
+  text-align: center;
+}
+.jumbotron p {
+  font-size: 30px;
+  letter-spacing: 3px;
+  padding: 15px;
+}
+body {
+  background-color: #B9CDDA;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
+  font-size: 20px;
+  padding: 20px;
+}

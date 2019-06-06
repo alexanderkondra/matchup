@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
 
@@ -13,13 +14,24 @@
     <title>Find Your Match</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Celebrity Dating Match-up</h1>
+    <div class="jumbotron">
+      <h1>Celebrity Dates</h1>
       <p>Find your ideal celebrity after answering just a few questions!</p>
+    </div>
+    <div class="container">
       <form id="form">
         <div class="form-group">
           <label for="name">Enter Name</label>
           <input id="name" class="for" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="gender">Whats your gender ?</label>
+          <select id="gender" class="form-control" type="text">
+            <option disabled selected value> -- select an option -- </option>
+            <option value="0">Male</option>
+            <option value="40">Female</option>
+          </select>
         </div>
 
         <div class="form-group">
@@ -67,25 +79,26 @@
           </select>
         </div>
         <button type="submit" class="btn">See your match!</button>
+      </div>
 
         <div class="baggins">
-          <!-- <img src="img/baggins.jpeg" alt="Bilbo Baggins"> -->
-          <p><span class="insert"></span>, you matched with Bilbo Baggins!!!</p>
+          <img src="img/lusy.jpeg" alt="Lusy musy">
+          <p><span class="insert"></span>You matched with Lusy you got lucky!!!</p>
         </div>
 
         <div class="ariel">
-          <!-- <img src="img/ariel.jpeg" alt="Ariel, The Little Mermaid"> -->
-          <p><span class="insert"></span>, you matched with Ariel, the little mermaid!!!</p>
+          <img src="img/nancy.jpg" alt="Ariel, The Little Mermaid">
+          <p><span class="insert"></span>You matched with Nancy, the little mermaid!!!</p>
         </div>
 
         <div class="darko">
-          <!-- <img src="img/darko.jpeg" alt="Donnie Darko"> -->
-          <p><span class="insert"></span>, you matched with Donnie Darko!!!</p>
+          <img src="img/idris.jpg" alt="Idris Elba">
+          <p><span class="insert"></span>You matched with Idris. WOW!!!</p>
         </div>
 
         <div class="nomatch">
-          <!-- <img src="img/nomatch.jpeg" alt="nobody we know"> -->
-          <p><span class="insert"></span>, there is someone for everyone, your's is just not here...</p>
+          <img src="img/chris.jpg" alt="Chris Hemsworth">
+          <p><span class="insert"></span>You matched with Chris. Dammmmmmnnnnnnnnnnnnnnnnnn, girl!</p>
         </div>
 
   </body>
